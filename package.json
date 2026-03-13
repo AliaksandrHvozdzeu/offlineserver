@@ -1,0 +1,16 @@
+{
+  "name": "offline-connect-server",
+  "version": "1.0.0",
+  "description": "Сайт и офлайн-чат в Wi‑Fi сети модема (Huawei E5573 и др.)",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "build": "cd client && npm run build",
+    "start": "cd server && node server.js",
+    "dev:client": "cd client && npm run dev",
+    "dev": "npm run build && npm run start"
+  },
+  "keywords": ["offline", "wifi", "chat", "huawei", "e5573"],
+  "license": "MIT",
+  "engines": { "node": ">=14" }
+}

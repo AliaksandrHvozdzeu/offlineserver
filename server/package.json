@@ -1,0 +1,15 @@
+{
+  "name": "offline-connect-server",
+  "version": "1.0.0",
+  "description": "HTTP + WebSocket сервер для офлайн-сайта и чата в Wi‑Fi сети",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["offline", "wifi", "chat", "websocket"],
+  "license": "MIT",
+  "engines": { "node": ">=14" },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
